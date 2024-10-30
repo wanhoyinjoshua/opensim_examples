@@ -1,6 +1,9 @@
-function [timeseries, yaxis]= sto2plotData(stopath,columnName)
-    import org.opensim.modeling.*
-
+function [timeseries, yaxis]= sto2plotDaa()
+    
+    newClass=SubjectMuscleClass('C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch1.mot\test_MuscleAnalysis_Length.sto');
+    disp(newClass);
+    [C,D,F]=newClass.myMethod()
+    %{
     storage = Storage(stopath);
     % Get time column
     timeArray = ArrayDouble();
@@ -33,5 +36,8 @@ function [timeseries, yaxis]= sto2plotData(stopath,columnName)
     end
 
     yaxis=data;
-
+    %}
 end
+
+
+[time,s]=sto2plotDaa();

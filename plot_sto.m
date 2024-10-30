@@ -1,12 +1,4 @@
 
-%this script is to extract info from sto files and plot them. 
-
-% Import OpenSim Libraries
-
-% Load the .sto file
-
-
-
 function plot_sto(crouched_stoFilepath,normal_stoFilePath,dataOutputPath,name)
     [normaltimeseries,normaldata]=sto2plotData(normal_stoFilePath,'semimem_r');
     [crouchedtime,crouchedata] =sto2plotData(crouched_stoFilepath,'semimem_r');
