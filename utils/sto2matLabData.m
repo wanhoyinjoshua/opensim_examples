@@ -1,9 +1,7 @@
-function [timeseries, yaxis]= sto2plotDaa()
+function [timeseries, yaxis]= sto2matLabData(stopath,columnName)
     
-    newClass=SubjectMuscleClass('C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch1.mot\test_MuscleAnalysis_Length.sto');
-    disp(newClass);
-    [C,D,F]=newClass.myMethod()
-    %{
+  
+    import org.opensim.modeling.*
     storage = Storage(stopath);
     % Get time column
     timeArray = ArrayDouble();
@@ -20,9 +18,9 @@ function [timeseries, yaxis]= sto2plotDaa()
 
 
 
-    % Get data for a specific column by its label (example: "muscle_activation")
+  
     
-    %'semimem_r'; % Replace with your desired column name
+    % Replace with your desired column name
     dataArray = ArrayDouble();
     
     storage.getDataColumn(columnName, dataArray);
@@ -36,8 +34,7 @@ function [timeseries, yaxis]= sto2plotDaa()
     end
 
     yaxis=data;
-    %}
+    
 end
 
 
-[time,s]=sto2plotDaa();
