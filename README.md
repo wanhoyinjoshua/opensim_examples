@@ -53,4 +53,7 @@ Arnold, A.S., Liu, M., Ounpuu, S., Swartz, M., Delp, S.L., The role of estimatin
   - `sourcedatafile`: Path to the original `.mot` file used in the analysis.
 - **Plots**: `.png` plots for muscle length and velocity comparisons, saved in the specified output directory.
 
+![Muuscle length of semitendonous muscle](https://github.com/user-attachments/assets/4c46e292-4603-4c12-b8e1-6d707f998211)
+![Velocity of muscle length of semitendonous muscle](https://github.com/user-attachments/assets/c60a1139-3eda-4361-a20a-ac584b531d04)
+
 
