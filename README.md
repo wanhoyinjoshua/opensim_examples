@@ -28,7 +28,7 @@ Arnold, A.S., Liu, M., Ounpuu, S., Swartz, M., Delp, S.L., The role of estimatin
 
 ## Utility Functions
 - **`sto2matLabData(stopath, columnName)`**:
-  - Reads `.sto` data files and extracts time series data for the specified column.
+  - Reads `.sto` data files and extracts time series data and convert into matlab compatabile array struture. 
 - **`savePlot2png(ref, current, currentDatarootPath, title_graph)`**:
   - Plots the reference and current data, saves it as a `.png` file, and returns the file path.
 
