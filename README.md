@@ -1,6 +1,8 @@
 # Muscle Analysis Toolkit
 
 This MATLAB toolkit analyzes muscle performance by comparing current muscle data against reference data, outputting plots and analysis metrics. The toolkit utilizes OpenSim's `AnalyzeTool` for biomechanical analysis of gait motion data.
+data and scripts obtained / modified from 
+Arnold, A.S., Liu, M., Ounpuu, S., Swartz, M., Delp, S.L., The role of estimating hamstrings lengths and velocities in planning treatments for crouch gait, Gait and Posture, vol. 23, pp. 273-281, 2006.
 
 ## Folder Structure
 - `utils/`: Contains helper functions for data processing.
