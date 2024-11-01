@@ -21513,3 +21513,359 @@ Please verify that the initial activation is valid and that the length of the mu
 [2024-11-01 12:59:45.219] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch4.mot\test_MuscleAnalysis_Length.sto (nr=101 nc=93)
 [2024-11-01 12:59:45.232] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_FiberVelocity.sto (nr=51 nc=93)
 [2024-11-01 12:59:45.241] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch4.mot\test_MuscleAnalysis_FiberVelocity.sto (nr=101 nc=93)
+[2024-11-01 13:32:03.416] [info] Updating Model file from 40000 to latest format...
+[2024-11-01 13:32:03.441] [info] Loaded model 3DGaitModel2392 from file C:\Users\wanho\Documents\matlab_opensim_tut\models\gait2392_simbody.osim
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'treadmill.vtp'.
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-11-01 13:32:03.442] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'fibula.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'talus.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'foot.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'l_fibula.vtp'.
+[2024-11-01 13:32:03.443] [warning] Couldn't find file 'l_talus.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-11-01 13:32:03.444] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2024-11-01 13:32:03.450] [info] No external loads will be applied (external loads file not specified).
+[2024-11-01 13:32:03.465] [info] Loading coordinates from file 'C:\Users\wanho\Documents\matlab_opensim_tut\mot\normal_gait\normal.mot'.
+[2024-11-01 13:32:03.465] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\mot\normal_gait\normal.mot (nr=51 nc=18)
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-11-01 13:32:03.466] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-11-01 13:32:03.488] [info] Found 51 state vectors with time stamps ranging from 0.0 to 1.0.
+[2024-11-01 13:32:03.488] [info] Executing the analyses from 0.0 to 1.0...
+[2024-11-01 13:32:03.630] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 1.0. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 3.98122 exceeds tolerance of 1.558e-05
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'med_gas_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:03.631] [info] Printing results of investigation test to C:\Users\wanho\Documents\matlab_opensim_tut\results\normal
+[2024-11-01 13:32:03.794] [info] Updating Model file from 40000 to latest format...
+[2024-11-01 13:32:03.845] [info] Loaded model 3DGaitModel2392 from file C:\Users\wanho\Documents\matlab_opensim_tut\models\gait2392_simbody.osim
+[2024-11-01 13:32:03.846] [warning] Couldn't find file 'treadmill.vtp'.
+[2024-11-01 13:32:03.846] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-11-01 13:32:03.846] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'fibula.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'talus.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'foot.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-11-01 13:32:03.847] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'l_fibula.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'l_talus.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-11-01 13:32:03.848] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2024-11-01 13:32:03.852] [info] No external loads will be applied (external loads file not specified).
+[2024-11-01 13:32:03.912] [info] Loading coordinates from file 'C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch1.mot'.
+[2024-11-01 13:32:03.913] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch1.mot (nr=120 nc=18)
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-11-01 13:32:03.916] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-11-01 13:32:03.966] [info] Found 119 state vectors with time stamps ranging from 0.0 to 1.0.
+[2024-11-01 13:32:03.967] [info] Executing the analyses from 0.0 to 1.0...
+[2024-11-01 13:32:04.009] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.118644. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0101826 exceeds tolerance of 3.22e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'flex_hal_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:04.097] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.406780. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0705367 exceeds tolerance of 1.558e-05
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'med_gas_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:04.148] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.576271. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0533859 exceeds tolerance of 3.22e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'flex_hal_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:04.191] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.720339. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.000506874 exceeds tolerance of 9e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'extobl_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:04.233] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.855932. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0355341 exceeds tolerance of 3.1e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'flex_dig_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:04.278] [info] Printing results of investigation test to C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch1.mot
+[2024-11-01 13:32:04.582] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_Length.sto (nr=51 nc=93)
+[2024-11-01 13:32:04.588] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch1.mot\test_MuscleAnalysis_Length.sto (nr=119 nc=93)
+[2024-11-01 13:32:04.602] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_FiberVelocity.sto (nr=51 nc=93)
+[2024-11-01 13:32:04.608] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch1.mot\test_MuscleAnalysis_FiberVelocity.sto (nr=119 nc=93)
+[2024-11-01 13:32:06.985] [info] Updating Model file from 40000 to latest format...
+[2024-11-01 13:32:07.014] [info] Loaded model 3DGaitModel2392 from file C:\Users\wanho\Documents\matlab_opensim_tut\models\gait2392_simbody.osim
+[2024-11-01 13:32:07.014] [warning] Couldn't find file 'treadmill.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'fibula.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'talus.vtp'.
+[2024-11-01 13:32:07.015] [warning] Couldn't find file 'foot.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'l_fibula.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'l_talus.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-11-01 13:32:07.016] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-11-01 13:32:07.017] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-11-01 13:32:07.017] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2024-11-01 13:32:07.020] [info] No external loads will be applied (external loads file not specified).
+[2024-11-01 13:32:07.035] [info] Loading coordinates from file 'C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch2.mot'.
+[2024-11-01 13:32:07.035] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch2.mot (nr=120 nc=18)
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-11-01 13:32:07.037] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-11-01 13:32:07.078] [info] Found 101 state vectors with time stamps ranging from 0.0 to 1.0.
+[2024-11-01 13:32:07.078] [info] Executing the analyses from 0.0 to 1.0...
+[2024-11-01 13:32:07.088] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.02. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0367794 exceeds tolerance of 9.43e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'per_long_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:07.158] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.31. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.162971 exceeds tolerance of 1.588e-05
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'tib_post_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:07.160] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.32. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.493159 exceeds tolerance of 2.33e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'tfl_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:07.206] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.51. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0910305 exceeds tolerance of 9.43e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'per_long_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:07.229] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.6. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.494674 exceeds tolerance of 2.33e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'tfl_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:07.325] [info] Printing results of investigation test to C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch2.mot
+[2024-11-01 13:32:07.454] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_Length.sto (nr=51 nc=93)
+[2024-11-01 13:32:07.460] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch2.mot\test_MuscleAnalysis_Length.sto (nr=101 nc=93)
+[2024-11-01 13:32:07.472] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_FiberVelocity.sto (nr=51 nc=93)
+[2024-11-01 13:32:07.479] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch2.mot\test_MuscleAnalysis_FiberVelocity.sto (nr=101 nc=93)
+[2024-11-01 13:32:09.539] [info] Updating Model file from 40000 to latest format...
+[2024-11-01 13:32:09.561] [info] Loaded model 3DGaitModel2392 from file C:\Users\wanho\Documents\matlab_opensim_tut\models\gait2392_simbody.osim
+[2024-11-01 13:32:09.562] [warning] Couldn't find file 'treadmill.vtp'.
+[2024-11-01 13:32:09.562] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-11-01 13:32:09.562] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'fibula.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'talus.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'foot.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-11-01 13:32:09.563] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'l_fibula.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'l_talus.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-11-01 13:32:09.564] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2024-11-01 13:32:09.568] [info] No external loads will be applied (external loads file not specified).
+[2024-11-01 13:32:09.582] [info] Loading coordinates from file 'C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch3.mot'.
+[2024-11-01 13:32:09.582] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch3.mot (nr=120 nc=18)
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-11-01 13:32:09.584] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-11-01 13:32:09.625] [info] Found 101 state vectors with time stamps ranging from 0.0 to 1.0.
+[2024-11-01 13:32:09.625] [info] Executing the analyses from 0.0 to 1.0...
+[2024-11-01 13:32:09.752] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.55. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 2.13595 exceeds tolerance of 1.288e-05
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'semimem_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:09.801] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.77. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.55764 exceeds tolerance of 2.33e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'tfl_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:09.852] [info] Printing results of investigation test to C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch3.mot
+[2024-11-01 13:32:09.974] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_Length.sto (nr=51 nc=93)
+[2024-11-01 13:32:09.980] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch3.mot\test_MuscleAnalysis_Length.sto (nr=101 nc=93)
+[2024-11-01 13:32:09.991] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_FiberVelocity.sto (nr=51 nc=93)
+[2024-11-01 13:32:09.997] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch3.mot\test_MuscleAnalysis_FiberVelocity.sto (nr=101 nc=93)
+[2024-11-01 13:32:12.070] [info] Updating Model file from 40000 to latest format...
+[2024-11-01 13:32:12.093] [info] Loaded model 3DGaitModel2392 from file C:\Users\wanho\Documents\matlab_opensim_tut\models\gait2392_simbody.osim
+[2024-11-01 13:32:12.093] [warning] Couldn't find file 'treadmill.vtp'.
+[2024-11-01 13:32:12.093] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'fibula.vtp'.
+[2024-11-01 13:32:12.094] [warning] Couldn't find file 'talus.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'foot.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'l_fibula.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'l_talus.vtp'.
+[2024-11-01 13:32:12.095] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-11-01 13:32:12.096] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-11-01 13:32:12.096] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-11-01 13:32:12.096] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-11-01 13:32:12.096] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-11-01 13:32:12.096] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2024-11-01 13:32:12.100] [info] No external loads will be applied (external loads file not specified).
+[2024-11-01 13:32:12.114] [info] Loading coordinates from file 'C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch4.mot'.
+[2024-11-01 13:32:12.114] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\mot\crouched_gait\crouch4.mot (nr=101 nc=18)
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-11-01 13:32:12.116] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-11-01 13:32:12.156] [info] Found 101 state vectors with time stamps ranging from 0.0 to 1.0.
+[2024-11-01 13:32:12.156] [info] Executing the analyses from 0.0 to 1.0...
+[2024-11-01 13:32:12.169] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.03. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.00911082 exceeds tolerance of 4.44e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'peri_l' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:12.252] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.4. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.0133476 exceeds tolerance of 3.1e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'flex_dig_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:12.258] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.42. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 0.00248542 exceeds tolerance of 3.22e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'flex_hal_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:12.289] [warning] AnalyzeTool::run() unable to equilibrate muscles at time = 0.56. Reason: Model::equilibrateMuscles() Unable to compute equilibrium for this muscle.
+Please verify that the initial activation is valid and that the length of the musculotendon actuator doesn't produce a pennation angle of 90 degrees or a negative fiber length.
+
+  Solution error 1.06393 exceeds tolerance of 6.83e-06
+  Newton iterations reached limit of 20
+  Activation is 0.05
+  Fiber length is nan
+
+	In Object 'lat_gas_r' of type Thelen2003Muscle.
+	Thrown at Thelen2003Muscle.cpp:376 in computeInitialFiberEquilibrium()..
+[2024-11-01 13:32:12.389] [info] Printing results of investigation test to C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch4.mot
+[2024-11-01 13:32:12.511] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_Length.sto (nr=51 nc=93)
+[2024-11-01 13:32:12.517] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch4.mot\test_MuscleAnalysis_Length.sto (nr=101 nc=93)
+[2024-11-01 13:32:12.529] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\normal\test_MuscleAnalysis_FiberVelocity.sto (nr=51 nc=93)
+[2024-11-01 13:32:12.535] [info] Storage: read data file = C:\Users\wanho\Documents\matlab_opensim_tut\results\crouch4.mot\test_MuscleAnalysis_FiberVelocity.sto (nr=101 nc=93)
